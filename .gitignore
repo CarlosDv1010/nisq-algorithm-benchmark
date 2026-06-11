@@ -1,0 +1,81 @@
+# =============================================================================
+# Python
+# =============================================================================
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Entornos virtuales
+venv/
+env/
+ENV/
+.venv/
+
+# Archivos de configuración de entorno
+.env
+.env.*
+
+# Distribución / packaging
+build/
+dist/
+*.egg-info/
+.eggs/
+
+# Coverage / testing
+.coverage
+htmlcov/
+.pytest_cache/
+
+# MyPy / type checking
+.mypy_cache/
+
+# Jupyter
+.ipynb_checkpoints/
+
+# Streamlit
+.streamlit/secrets.toml
+
+# =============================================================================
+# Sistema y editores
+# =============================================================================
+.DS_Store
+Thumbs.db
+.vscode/
+.idea/
+
+# Archivos temporales
+*.tmp
+*.swp
+*.log
+
+# =============================================================================
+# LaTeX (auxiliares generados por pdflatex / bibtex / latexmk)
+# =============================================================================
+*.aux
+*.bbl
+*.blg
+*.brf
+*.fdb_latexmk
+*.fls
+*.idx
+*.ilg
+*.ind
+*.lof
+*.lot
+*.out
+*.synctex.gz
+*.toc
+*.acn
+*.acr
+*.alg
+*.glo
+*.gls
+*.nav
+*.snm
+*.vrb
+*.bcf
+*.run.xml
+
+# Archivos de prueba
+documento/main_test.*
+documento/*.tex.bak

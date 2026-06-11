@@ -1,0 +1,19 @@
+# Qiskit 1.x y simulador
+qiskit>=1.0.0
+qiskit-aer>=0.14.0
+qiskit-ibm-runtime>=0.20.0
+
+# Análisis de datos y estadística
+numpy>=1.26.0
+pandas>=2.2.0
+scipy>=1.12.0
+
+# Visualización
+matplotlib>=3.8.0
+seaborn>=0.13.0
+
+# Interfaz web
+streamlit>=1.32.0
+
+# Barra de progreso para el benchmark
+tqdm>=4.66.0
