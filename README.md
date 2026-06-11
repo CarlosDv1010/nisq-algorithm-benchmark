@@ -31,10 +31,7 @@ Toda la infraestructura corre en simulación sobre **Qiskit** + **Qiskit Aer**, 
 │       ├── simon_view.py
 │       ├── grover_view.py
 │       └── qpe_view.py
-├── notebooks/
-│   └── analysis.py          # Genera las figuras del documento desde los CSV
 ├── data/                    # Resultados del benchmark (CSV por algoritmo)
-├── documento/               # Fuente LaTeX de la tesis
 ├── app.py                   # Punto de entrada de la interfaz Streamlit
 └── requirements.txt
 ```
@@ -58,14 +55,6 @@ python -m src.data.run_benchmarks
 Los resultados se guardan en `data/benchmark_<algoritmo>_<timestamp>.csv`.
 
 Para correr solo un subconjunto de algoritmos, editar `RUN_CONFIG` al inicio de `run_benchmarks.py`.
-
-**Regenerar las figuras del documento**:
-
-```bash
-python notebooks/analysis.py
-```
-
-Detecta automáticamente el CSV más reciente de cada algoritmo y guarda las figuras en `documento/figures/`.
 
 **Explorar resultados de forma interactiva**:
 
